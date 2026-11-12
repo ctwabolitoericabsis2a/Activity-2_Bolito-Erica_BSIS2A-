@@ -1,0 +1,17 @@
+Users table 
+    id -> int 
+    username -> varchar
+    password -> varchar
+    status -> enum
+    role -> enum
+    created_at -> timestamp
+
+Products table 
+    id -> int
+    name -> varchar
+    description -> text
+    quantity -> int
+    price -> decimal
+    created_at -> timestamp
+    created_by -> FK int
+    updated_at -> timestamp on update timestamp
